@@ -4,7 +4,7 @@
 
 오류 제보: [GitHub Issues](https://github.com/lshqqytiger/KKuTuManual/issues)
 
-수정 요청: [GitHub Pull Request](https://github.com/lshqqytiger/KKuTuManual/pulls)
+수정 요청: [GitHub Pull Requests](https://github.com/lshqqytiger/KKuTuManual/pulls)
 
 작성일: 2024년 1월 12일
 
@@ -102,3 +102,5 @@ git merge --abort
 ```
 git push
 ```
+
+## 참조
