@@ -80,18 +80,20 @@ git merge someone/branch
 
 여러가지 도구를 사용해 적당히 Conflict를 해결합니다.
 
-Conflict가 없었거나 모든 Conflict를 해결했다면 아래 명령어를 실행해 병합을 완료합니다.
+모든 Conflict를 해결했다면 아래 명령어를 실행해 병합을 완료합니다. 이 명령어는 Conflict가 없었다면 실행하지 않아도 됩니다.
 
 ```
 git add .
 git merge --continue
 ```
 
-만약 병합 작업을 취소하고 싶다면 아래 명령어를 실행합니다.
+Conflict가 발생한 후 병합 작업을 취소하고 싶다면 아래 명령어를 실행합니다.
 
 ```
 git merge --abort
 ```
+
+병합 이후 병합 작업을 취소하려면 Revert해야 합니다. 이 과정은 여기서는 설명하지 않겠습니다.
 
 ## 병합한 commit들을 원격 레포지토리에 반영합니다.
 
